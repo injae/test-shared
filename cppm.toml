@@ -1,0 +1,9 @@
+[package]
+   name = "test-shared"
+   version = "0.0.1"
+   description = ""
+
+[lib]
+   name = "test-shared"
+   type = "shared"
+   source = ["src/.*"]
